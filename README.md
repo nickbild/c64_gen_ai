@@ -2,4 +2,4 @@
 
 Details coming soon.
 
-[https://github.com/smrfeld/python_prob_pca_tutorial]()
+[Model trained with modified version](https://github.com/smrfeld/python_prob_pca_tutorial)
