@@ -1,8 +1,8 @@
 # Commodore 64 AI Image Generator
 
-![](https://raw.githubusercontent.com/nickbild/c64_gen_ai/main/media/logo.jpg)
-
 Make creative retro game sprites on the Commodore 64 with generative AI.
+
+![](https://raw.githubusercontent.com/nickbild/c64_gen_ai/main/media/logo.jpg)
 
 ## How It Works
 
