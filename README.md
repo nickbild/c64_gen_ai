@@ -14,7 +14,7 @@ I started by building a model using a modified version of the Python code found 
 
 This produces a number of parameter values (a mean matrix, covariance matrix, etc.) that only need to be calculated once for a given dataset. These were then plugged into a [script](https://github.com/nickbild/c64_gen_ai/blob/main/pca_custom.py) I created with simplified logic — no NumPy or other libraries — to run the randomization and generative parts of the algorithm. This simplification made it easy to convert the logic into [BASIC code](https://github.com/nickbild/c64_gen_ai/blob/main/make_basic.py) that is compatible with the Commodore 64. That code is then loaded onto a C64 to generate unique images that fit in the distribution of the training data. Finally, the 8x8 images are expanded to 64x64 and displayed on the screen.
 
-The number of iterations the algorithm goes through can be varied. More iterations produces better results generally, but takes longer. At 94 iterations, it takes about 20 minutes to run on a C64. Not really too bad consiering how long a modern image generator would take on a modern computer without a GPU.
+The number of iterations the algorithm goes through can be varied. More iterations produces better results generally, but takes longer. At 94 iterations, it takes about 20 minutes to run on a C64. Not really too bad considering how long a modern image generator would take on a modern computer without a GPU.
 
 ## Media
 
