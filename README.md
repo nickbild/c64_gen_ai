@@ -18,6 +18,8 @@ The number of iterations the algorithm goes through can be varied. More iteratio
 
 ## Media
 
+Check out the [demo video on YouTube](https://www.youtube.com/watch?v=_xd_QeO7g6E).
+
 Running on a C64:
 
 ![](https://raw.githubusercontent.com/nickbild/c64_gen_ai/main/media/running_start_sm.jpg)
