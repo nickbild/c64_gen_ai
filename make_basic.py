@@ -57,15 +57,15 @@ print("""
 202 print "iteration " + str$(pp) + " of " + str$({1})
 
 205 for cn=0 to 63
-215 sn = rnd(1)
-220 if sn<0.5 then mm=rnd(1)*3.5
-221 if sn>=0.5 then mm=rnd(1)*-3.5
+215 sn = rnd(0)
+220 if sn<0.5 then mm=rnd(0)*3.5
+221 if sn>=0.5 then mm=rnd(0)*-3.5
 222 me(cn)=we(cn)*mm+mu(cn)
 225 next cn
 
 230 for cn=0 to 63
-235 z(cn)=rnd(1)*2.2
-240 sn = rnd(1)
+235 z(cn)=rnd(0)*2.2
+240 sn = rnd(0)
 245 if sn<0.5 then z(cn)=z(cn)*-1
 250 next cn
 
